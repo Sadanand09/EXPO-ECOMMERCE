@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "node --watch src/server.js",
+    "build": "cd ../admin && npm install && npm run build",
     "start": "node src/server.js"
   },
   "keywords": [],
