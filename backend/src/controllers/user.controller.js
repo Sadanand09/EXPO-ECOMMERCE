@@ -1,5 +1,5 @@
 import { request } from "express";
-import { User } from "../models/user.model";
+import { User } from "../models/user.model.js";
 
 export async function addAddress(req, res) {
   try {
